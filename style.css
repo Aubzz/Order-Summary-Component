@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  min-width: 100vh;
+  display: flex;
+}
+
+.main,
+img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.main {
+  background-color: #fff;
+  max-width: 1400px;
+  margin: 100px auto;
+  width: 28%;
+  height: 700px;
+  text-align: center;
+}
+
+img {
+  height: 190px;
+  width: 380px;
+}
+
+.order-summary {
+  margin: 30px 20px;
+  font-weight: 900;
+  font-size: 23px;
+}
