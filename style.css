@@ -11,6 +11,11 @@ body {
   display: flex;
 }
 
+.bg-image {
+  position: absolute;
+  top: -15%;
+  overflow: hidden;
+}
 .main,
 img {
   border-top-left-radius: 20px;
@@ -34,4 +39,8 @@ img {
   margin: 30px 20px;
   font-weight: 900;
   font-size: 23px;
+}
+
+.order-payment {
+  background-color: hsl(225, 100%, 98%);
 }
